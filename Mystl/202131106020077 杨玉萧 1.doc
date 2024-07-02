@@ -1,0 +1,265 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+//顺序表
+
+//定义顺序表的最大容量
+#define MAXSIZE 100
+  
+typedef struct {  
+    int data[MAXSIZE];  
+    int length;         
+} SqList;  
+  
+// 初始化顺序表  
+void InitList(SqList *L) {  
+    L->length = 0;  
+}  
+  
+// 插入元素  
+int ListInsert(SqList *L, int i, int e) {  
+    if (i < 1 || i > L->length + 1 || L->length == MAXSIZE) {  
+        return 0;  
+    }  
+    for (int j = L->length; j >= i; j--) {  
+        L->data[j] = L->data[j - 1];  
+    }  
+    L->data[i - 1] = e;   
+    L->length++;
+    return 1;  
+}  
+  
+// 删除元素  
+int ListDelete(SqList *L, int i, int *e) {  
+    if (i < 1 || i > L->length) {  
+        return 0;  
+    }  
+    *e = L->data[i - 1];  
+    for (int j = i; j < L->length; j++) {  
+        L->data[j - 1] = L->data[j]; 
+    }  
+    L->length--; 
+    return 1;  
+}  
+  
+// 查找元素  
+int GetElem(SqList L, int i, int *e) {  
+    if (i < 1 || i > L.length) {  
+        return 0;   
+    }  
+    *e = L.data[i - 1];  
+    return 1;  
+}  
+
+//带头结点的单链表
+
+typedef struct ListNode {  
+    int data;  
+    struct ListNode *next;  
+} ListNode;  
+  
+// 初始化单链表  
+void InitList(ListNode **head) {  
+    *head = (ListNode *)malloc(sizeof(ListNode)); 
+    if (*head == NULL) {  
+        exit(1); 
+    }  
+    (*head)->next = NULL; 
+}  
+  
+// 插入元素到链表尾部  
+void ListInsert(ListNode *head, int value) {  
+    ListNode *newNode = (ListNode *)malloc(sizeof(ListNode));
+    if (newNode == NULL) {  
+        exit(1); 
+    }  
+    newNode->data = value; 
+    newNode->next = NULL; 
+  
+    ListNode *current = head;  
+    while (current->next != NULL) { 
+        current = current->next;  
+    }  
+    current->next = newNode; 
+}  
+  
+// 删除指定值的元素  
+bool ListDelete(ListNode *head, int value) {  
+    ListNode *current = head;  
+    ListNode *prev = NULL;  
+  
+    while (current->next != NULL) {  
+        if (current->next->data == value) { 
+            ListNode *temp = current->next;  
+            current->next = temp->next; 
+            free(temp); 
+            return true;  
+        }  
+        prev = current;  
+        current = current->next;  
+    }  
+    return false;
+}  
+  
+// 查找元素  
+ListNode* GetElem(ListNode *head, int value) {  
+    ListNode *current = head->next; 
+    while (current != NULL) {  
+        if (current->data == value) { 
+            return current;  
+        }  
+        current = current->next;  
+    }  
+    return NULL; 
+}  
+  
+// 释放链表内存  
+void FreeList(ListNode *head) {  
+    ListNode *current = head;  
+    ListNode *temp;  
+    while (current != NULL) {  
+        temp = current;  
+        current = current->next;  
+        free(temp);  
+    }  
+}  
+
+#define MAX_SIZE 100 // 定义栈和队列的最大容量  
+//栈
+
+typedef struct {  
+    int top; // 栈顶指针  
+    unsigned capacity; // 栈的容量  
+    int* array; // 栈的数组  
+} Stack;  
+  
+// 初始化栈  
+Stack* createStack(unsigned capacity) {  
+    Stack* stack = (Stack*) malloc(sizeof(Stack));  
+    if (!stack) return NULL;  
+  
+    stack->top = -1;  
+    stack->capacity = capacity;  
+    stack->array = (int*) malloc(stack->capacity * sizeof(int));  
+  
+    if (!stack->array) {  
+        free(stack);  
+        return NULL;  
+    }  
+  
+    return stack;  
+}  
+  
+// 判断栈是否为空  
+bool isEmpty(Stack* stack) {  
+    return stack->top == -1;  
+}  
+  
+// 判断栈是否已满  
+bool isFull(Stack* stack) {  
+    return stack->top == stack->capacity - 1;  
+}  
+  
+// 入栈操作  
+bool push(Stack* stack, int item) {  
+    if (isFull(stack))  
+        return false;  
+  
+    stack->array[++stack->top] = item;  
+    return true;  
+}  
+  
+// 出栈操作  
+bool pop(Stack* stack, int* item) {  
+    if (isEmpty(stack))  
+        return false;  
+  
+    *item = stack->array[stack->top--];  
+    return true;  
+}  
+  
+// 获取栈顶元素  
+bool peek(Stack* stack, int* item) {  
+    if (isEmpty(stack))  
+        return false;  
+  
+    *item = stack->array[stack->top];  
+    return true;  
+}  
+  
+// 销毁栈  
+void destroyStack(Stack* stack) {  
+    free(stack->array);  
+    free(stack);  
+}  
+
+//队列
+  
+typedef struct {  
+    int front; // 队头指针  
+    int rear;  // 队尾指针  
+    unsigned capacity; // 队列的容量  
+    int* array; // 队列的数组  
+} Queue;  
+  
+// 初始化队列  
+Queue* createQueue(unsigned capacity) {  
+    Queue* queue = (Queue*) malloc(sizeof(Queue));  
+    if (!queue) return NULL;  
+  
+    queue->front = 0;  
+    queue->rear = -1;  
+    queue->capacity = capacity;  
+    queue->array = (int*) malloc(queue->capacity * sizeof(int));  
+  
+    if (!queue->array) {  
+        free(queue);  
+        return NULL;  
+    }  
+  
+    return queue;  
+}  
+  
+// 判断队列是否为空  
+bool isEmpty(Queue* queue) {  
+    return queue->front > queue->rear;  
+}  
+  
+// 判断队列是否已满  
+bool isFull(Queue* queue) {  
+    return ((queue->rear + 1) % queue->capacity == queue->front);  
+}  
+  
+// 入队操作  
+bool enqueue(Queue* queue, int item) {  
+    if (isFull(queue))  
+        return false;  
+  
+    queue->array[++queue->rear] = item;  
+    return true;  
+}  
+  
+// 出队操作  
+bool dequeue(Queue* queue, int* item) {  
+    if (isEmpty(queue))  
+        return false;  
+  
+    *item = queue->array[queue->front++];  
+    return true;  
+}  
+  
+// 获取队头元素  
+bool front(Queue* queue, int* item) {  
+    if (isEmpty(queue))  
+        return false;  
+  
+    *item = queue->array[queue->front];  
+    return true;  
+}  
+  
+// 销毁队列  
+void destroyQueue(Queue* queue) {  
+    free(queue->array);  
+    free(queue);  
+}  
+  

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\c\u002B\u002B\\Sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11E7819B-53DD-44FB-AAF9-A43026165BBE}|Sort.vcxproj|D:\\code\\c\u002B\u002B\\Sort\\Sort.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11E7819B-53DD-44FB-AAF9-A43026165BBE}|Sort.vcxproj|solutionrelative:Sort.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sort.hpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\Sort\\Sort.hpp",
+              "RelativeDocumentMoniker": "Sort.hpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\Sort\\Sort.hpp",
+              "RelativeToolTip": "Sort.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-10T03:07:44.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

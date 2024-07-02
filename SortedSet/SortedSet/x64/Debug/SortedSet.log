@@ -1,0 +1,31 @@
+﻿  SortedSet.cpp
+D:\code\c++\SortedSet\SortedSet.cpp(27,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  D:\code\c++\SortedSet\SortedSet.cpp(27,15):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\code\c++\SortedSet\SortedSet.cpp(98,22):
+  	查看对正在编译的 类 模板 实例化“SortedSet<int,100>”的引用
+  	D:\code\c++\SortedSet\SortedSet.cpp(11,7):
+  	在编译 类 模板 成员函数“bool SortedSet<int,100>::insert(T)”时
+          with
+          [
+              T=int
+          ]
+  		D:\code\c++\SortedSet\SortedSet.cpp(99,10):
+  		请参阅 "main" 中对 "SortedSet<int,100>::insert" 的第一个引用
+  
+D:\code\c++\SortedSet\SortedSet.cpp(82,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  D:\code\c++\SortedSet\SortedSet.cpp(82,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\code\c++\SortedSet\SortedSet.cpp(80,6):
+  	在编译 类 模板 成员函数“int SortedSet<int,100>::find(T)”时
+          with
+          [
+              T=int
+          ]
+  		D:\code\c++\SortedSet\SortedSet.cpp(60,13):
+  		请参阅 "SortedSet<int,100>::delElement" 中对 "SortedSet<int,100>::find" 的第一个引用
+  		D:\code\c++\SortedSet\SortedSet.cpp(113,14):
+  		请参阅 "main" 中对 "SortedSet<int,100>::delElement" 的第一个引用
+  
+D:\code\c++\SortedSet\SortedSet.cpp(85,1): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  SortedSet.vcxproj -> D:\code\c++\SortedSet\x64\Debug\SortedSet.exe

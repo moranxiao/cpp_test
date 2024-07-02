@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\c\u002B\u002B\\sql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D233377-0C1A-475C-8D2E-CE5194556BFE}|sql.vcxproj|D:\\code\\c\u002B\u002B\\sql\\sqlserver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D233377-0C1A-475C-8D2E-CE5194556BFE}|sql.vcxproj|solutionrelative:sqlserver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sqlserver.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\sql\\sqlserver.cpp",
+              "RelativeDocumentMoniker": "sqlserver.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\sql\\sqlserver.cpp",
+              "RelativeToolTip": "sqlserver.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T02:58:46.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\c\u002B\u002B\\test5.26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|D:\\code\\c\u002B\u002B\\test5.26\\hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|solutionrelative:hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|D:\\code\\c\u002B\u002B\\test5.26\\HalfSearch.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|solutionrelative:HalfSearch.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|D:\\code\\c\u002B\u002B\\test5.26\\SortBinaryTree.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C39B3151-F1E9-4FA9-9F73-60075F2D0165}|test5.26.vcxproj|solutionrelative:SortBinaryTree.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortBinaryTree.hpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.26\\SortBinaryTree.hpp",
+              "RelativeDocumentMoniker": "SortBinaryTree.hpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.26\\SortBinaryTree.hpp",
+              "RelativeToolTip": "SortBinaryTree.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-26T11:37:48.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hash.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.26\\hash.cpp",
+              "RelativeDocumentMoniker": "hash.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.26\\hash.cpp",
+              "RelativeToolTip": "hash.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-26T11:36:56.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HalfSearch.hpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.26\\HalfSearch.hpp",
+              "RelativeDocumentMoniker": "HalfSearch.hpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.26\\HalfSearch.hpp",
+              "RelativeToolTip": "HalfSearch.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-26T11:06:38.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

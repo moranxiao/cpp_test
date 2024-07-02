@@ -1,0 +1,17 @@
+﻿  sqlserver.cpp
+D:\code\c++\sql\sqlserver.cpp(22,12): error C2664: “SQLRETURN SQLGetDiagRecW(SQLSMALLINT,SQLHANDLE,SQLSMALLINT,SQLWCHAR *,SQLINTEGER *,SQLWCHAR *,SQLSMALLINT,SQLSMALLINT *)”: 无法将参数 4 从“SQLCHAR *”转换为“SQLWCHAR *”
+  D:\code\c++\sql\sqlserver.cpp(22,59):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\sqlucode.h(210,19):
+  参见“SQLGetDiagRecW”的声明
+  D:\code\c++\sql\sqlserver.cpp(22,12):
+  尝试匹配参数列表“(SQLSMALLINT, SQLHANDLE, SQLSMALLINT, SQLCHAR *, SQLINTEGER *, SQLCHAR [513], SQLSMALLINT, SQLSMALLINT *)”时
+  
+D:\code\c++\sql\sqlserver.cpp(56,11): error C2664: “SQLRETURN SQLPrepareW(SQLHSTMT,SQLWCHAR *,SQLINTEGER)”: 无法将参数 2 从“SQLCHAR *”转换为“SQLWCHAR *”
+  D:\code\c++\sql\sqlserver.cpp(56,39):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\sqlucode.h(223,19):
+  参见“SQLPrepareW”的声明
+  D:\code\c++\sql\sqlserver.cpp(56,11):
+  尝试匹配参数列表“(SQLHSTMT, SQLCHAR *, int)”时
+  

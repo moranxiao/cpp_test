@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\code\c++\DataBaseExp4\main.cpp(30,69): warning C4311: “类型强制转换”: 从“SQLTCHAR *”到“int”的指针截断
+D:\code\c++\DataBaseExp4\main.cpp(30,69): warning C4302: “类型强制转换”: 从“SQLTCHAR *”到“int”截断
+  DataBaseExp4.vcxproj -> D:\code\c++\DataBaseExp4\x64\Debug\DataBaseExp4.exe

@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\c\u002B\u002B\\test5.25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|D:\\code\\c\u002B\u002B\\test5.25\\exp4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|solutionrelative:exp4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|D:\\code\\c\u002B\u002B\\test5.25\\test6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|solutionrelative:test6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|D:\\code\\c\u002B\u002B\\test5.25\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|D:\\code\\c\u002B\u002B\\test5.25\\test10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|solutionrelative:test10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|D:\\code\\c\u002B\u002B\\test5.25\\test7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFED9E7-64F4-485D-981F-24728823256F}|test5.25.vcxproj|solutionrelative:test7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.25\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.25\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T08:53:17.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "exp4.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.25\\exp4.cpp",
+              "RelativeDocumentMoniker": "exp4.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.25\\exp4.cpp",
+              "RelativeToolTip": "exp4.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T02:29:58.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test10.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.25\\test10.cpp",
+              "RelativeDocumentMoniker": "test10.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.25\\test10.cpp",
+              "RelativeToolTip": "test10.cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwGEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T01:39:22.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test7.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.25\\test7.cpp",
+              "RelativeDocumentMoniker": "test7.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.25\\test7.cpp",
+              "RelativeToolTip": "test7.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T01:28:46.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test6.cpp",
+              "DocumentMoniker": "D:\\code\\c\u002B\u002B\\test5.25\\test6.cpp",
+              "RelativeDocumentMoniker": "test6.cpp",
+              "ToolTip": "D:\\code\\c\u002B\u002B\\test5.25\\test6.cpp",
+              "RelativeToolTip": "test6.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T00:40:46.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

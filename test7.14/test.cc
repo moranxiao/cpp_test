@@ -2,9 +2,8 @@
 
 #include <iostream>
 #include <algorithm>
-#include <iostream>
+#include <vector>
 using namespace std;
-
 const int N = 5e3+10;
 
 using PII = pair<int,int>;

@@ -34,4 +34,5 @@ int main()
     for(int i = 1; i <= n; i++) res = max(res,dp1[i]+dp2[i]-1);
     cout << n - res << endl;
     return 0;
+
 }

@@ -36,3 +36,54 @@ int main()
     cout << dp[n][m].first << ' ' << m - dp[n][m].second;
     return 0;
 }
+//装箱问题
+#include <iostream>
+
+using namespace std;
+
+const int N = 2e4+10;
+
+int dp[N];
+int n,m;
+
+int main()
+{
+    cin >> m >> n;
+    for(int i = 0; i < n; i++)
+    {
+        int v;
+        cin >> v;
+        for(int j = m; j >= v; j--)
+        {
+            dp[j] = max(dp[j],dp[j-v]+v);
+        }
+    }
+    cout << m - dp[m];
+    return 0;
+}
+
+//采药
+#include <iostream>
+using namespace std;
+
+const int N = 1e3+10;
+
+int dp[N];
+
+int n,m;
+
+int main()
+{
+    cin >> m >> n;
+    for(int i = 0; i < n; i++)
+    {
+        int v,w;
+        cin >> v >> w;
+        for(int j = m; j >= v; j--)
+        {
+            dp[j] = max(dp[j],dp[j-v]+w);
+        }
+    }
+    cout << dp[m] << endl;
+    return 0;
+}

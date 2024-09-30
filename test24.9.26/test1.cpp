@@ -12,6 +12,7 @@ void dfs(int x)
 	cout << "µÚ" << x << "Ìì£º" << endl;
 	bool oneday[N];
 	memset(oneday, 0, sizeof oneday);
+	if (n % 2 != 0) oneday[n - x + 1] = true;
 	for (int i = 1; i <= n; i++)
 	{
 		if (oneday[i]) continue;

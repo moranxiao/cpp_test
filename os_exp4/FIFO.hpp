@@ -38,14 +38,18 @@ namespace replace_pages {
 					st[i] = false;
 				}
 			}
+			//如果缺页
 			if (st[i])
 			{
 				res++;
+
+				//内存未填满则直接在后面添加
 				if (now_num < num)
 				{
 					g[now_num][i] = pages[i];
 					now_num++;
 				}
+				//填满则需移动数组
 				else
 				{
 					for (int j = 0; j < num - 1; j++)

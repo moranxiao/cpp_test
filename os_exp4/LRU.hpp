@@ -41,25 +41,21 @@ namespace replace_pages {
 					t = j;
 				}
 			}
+			//如果缺页
 			if (st[i])
 			{
 				res++;
-				if (now_num < num)
-				{
-					for (int j = now_num; j > 0; j--)
-						g[j][i] = g[j - 1][i];
-					g[0][i] = pages[i];
+				//新页面压入栈顶，其他页面向下移动
+				for (int j = now_num; j > 0; j--)
+					g[j][i] = g[j - 1][i];
+				g[0][i] = pages[i];
+				if(now_num < num-1)
 					now_num++;
-				}
-				else
-				{
-					for (int j = num - 1; j > 0; j--)
-						g[j][i] = g[j - 1][i];
-					g[0][i] = pages[i];
-				}
 			}
+			//如果不缺页
 			else
 			{
+				//将匹配到的页面移入栈顶，在此页面之上的页面向下压
 				for (int j = t; j > 0; j--)
 				{
 					g[j][i] = g[j - 1][i];

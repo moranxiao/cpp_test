@@ -1,28 +1,31 @@
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int t = 0;
-        ListNode* guard = new ListNode;
-        ListNode* cur = guard;
-        while(l1 || l2)
+    Node* copyRandomList(Node* head) {
+        Node* cur = head;
+        while(cur)
         {
-            int a = 0,b = 0;
-            if(l1)
-            {
-                a = l1->val;
-                l1 = l1->next;
-            }
-            if(l2)
-            {
-                b = l2->val;
-                l2 = l2->next;
-            }
-            t = a + b + t;
-            cur->next = new ListNode(t%10);
-            t /= 10;
-            cur = cur->next;
+            Node* node = new Node(cur->val);
+            Node* next = cur->next;
+            cur->next = node;
+            node->next = next;
+            cur = next;
         }
-        if(t) cur->next = new ListNode(t);
-        return guard->next;
+        cur = head;
+        while(cur)
+        {
+            
+            cur->next->random = cur->random ? cur->random->next : nullptr;
+            cur = cur->next->next;
+        }
+        Node* newHead = head ? head->next : nullptr;
+        cur = head;
+        while(cur)
+        {
+            Node* next = cur->next->next;
+            cur->next->next = next ? next->next : nullptr;
+            cur->next = next;
+            cur = next;
+        }
+        return newHead;
     }
 };
